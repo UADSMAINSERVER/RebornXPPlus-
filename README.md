@@ -12,5 +12,3 @@
 
 Microsoft and Windows XP trademarks & logos definitely belong to Microsoft Corporation. All the programs names and logos (Foxit, Flash Player, Firefox, Word, WinRar, Internet Explorer, etc.) are of their rightful copyright holders. RebornXP is purely for the purpose of nostalgia and its source for educational purposes. It is not affiliated with and has not been approved by Microsoft.
 
-## The main page
-https://xp.quenq.com/

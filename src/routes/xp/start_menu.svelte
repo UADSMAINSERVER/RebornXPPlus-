@@ -347,7 +347,10 @@
             
             {"name":"Solitaire","icon":"/images/xp/icons/Solitaire.png","path":"./programs/webapp.svelte","webapp":{"background":"rgb(236 233 216 / var(--tw-bg-opacity))","url":"https://98.js.org/programs/js-solitaire/","name":"Solitaire","icon":"/images/xp/icons/Solitaire.png"}},
             
-            {"name":"Spider Solitaire","icon":"/images/xp/icons/SpiderSolitaire.png","path":"./programs/webapp.svelte","webapp":{"background":"#111827","url":"https://lrusso.github.io/Spider/Spider.htm","name":"Spider Solitaire","icon":"/images/xp/icons/SpiderSolitaire.png"}}
+            {"name":"Spider Solitaire","icon":"/images/xp/icons/SpiderSolitaire.png","path":"./programs/webapp.svelte","webapp":{"background":"#111827","url":"https://lrusso.github.io/Spider/Spider.htm","name":"Spider Solitaire","icon":"/images/xp/icons/SpiderSolitaire.png"}},
+            
+            { name: "Jigsaw Puzzle", icon: "/jigsaw/LOGO.png", path: "./programs/jigsaw.svelte" }
+
             
             ]
         },

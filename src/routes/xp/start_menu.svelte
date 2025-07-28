@@ -357,7 +357,7 @@
         {
             name: 'Startup',
             icon: '/images/xp/icons/StartMenuPrograms.png',
-            items: []
+            items: [{"name":"UADS_Broswer","icon":"/image/xp/icons/UADS_browser.png","path":"./programs/webapp.svelte","webapp":{"background":"#111827","url":"https://www.proxysite.com","name":"UADS_browser","icon":"/image/xp/icons/UADS_broswer.png"}},
         },
         {
             name: 'Internet Explorer',

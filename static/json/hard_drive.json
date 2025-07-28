@@ -422,6 +422,22 @@
     "sort_option": 0,
     "sort_order": 0
   },
+  "2MEHKuHx4xNjsABcJPROXY": {
+    "id": "2MEHKuHx4xNjsABcJPROXY",
+    "type": "file",
+    "name": "UADS Browser",
+    "basename": "UADS Browser",
+    "storage_type": "local",
+    "url": "https://www.proxysite.com/",
+    "ext": ".webapp",
+    "parent": "DESKTOP_FOLDER_ID",
+    "size": 0,
+    "icon": "/images/xp/icons/UADS_browser.png",
+    "date_created": 1722063600000,
+    "date_modified": 1722063600000,
+    "sort_option": 0,
+    "sort_order": 0
+  },
   "jZ2bTHBno2363BxGs1LHCN": {
     "id": "jZ2bTHBno2363BxGs1LHCN",
     "type": "file",

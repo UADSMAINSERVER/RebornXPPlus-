@@ -1,0 +1,38 @@
+<script>
+    import Window from '../../../lib/components/xp/Window.svelte';
+    import { runningPrograms } from '../../../lib/store';
+
+    export let id;
+    export let window;
+    export let self;
+    export let exec_path;
+
+    function close_program() {
+        runningPrograms.update(programs => programs.filter(p => p !== self));
+        self.$destroy();
+    }
+
+    let ws_size = {
+        width: document.querySelector('#work-space').offsetWidth,
+        height: document.querySelector('#work-space').offsetHeight
+    };
+
+    export let options = {
+        title: 'UADS Browser',
+        min_width: 400,
+        min_height: 300,
+        width: Math.min(ws_size.width - 20, 1000),
+        height: Math.min(ws_size.height - 20, 600),
+        icon: '/images/xp/icons/UADS_browser.png',
+        id: id,
+        exec_path
+    };
+</script>
+
+<Window options={options} bind:this={window} on_click_close={close_program}>
+    <div slot="content" class="absolute inset-0 bg-white">
+        <iframe src="https://www.google.com" class="w-full h-full border-none"></iframe>
+    </div>
+</Window>
+
+<svelte:options accessors={true} />

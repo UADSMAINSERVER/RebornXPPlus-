@@ -349,9 +349,9 @@
             
             {"name":"Spider Solitaire","icon":"/images/xp/icons/SpiderSolitaire.png","path":"./programs/webapp.svelte","webapp":{"background":"#111827","url":"https://lrusso.github.io/Spider/Spider.htm","name":"Spider Solitaire","icon":"/images/xp/icons/SpiderSolitaire.png"}},
             
-            { name: "Jigsaw Puzzle", icon: "/jigsaw/LOGO.png", path: "./programs/jigsaw.svelte" }
+            { name: "Jigsaw Puzzle", icon: "/jigsaw/LOGO.png", path: "./programs/jigsaw.svelte", size: 9000, onClick: () => openProgram({ name: "Jigsaw Puzzle", icon: "/jigsaw/LOGO.png", path: "./programs/jigsaw.svelte", size: 9000 }) }
 
-            
+
             ]
         },
         {

@@ -349,7 +349,7 @@
             
             {"name":"Spider Solitaire","icon":"/images/xp/icons/SpiderSolitaire.png","path":"./programs/webapp.svelte","webapp":{"background":"#111827","url":"https://lrusso.github.io/Spider/Spider.htm","name":"Spider Solitaire","icon":"/images/xp/icons/SpiderSolitaire.png"}},
             
-            {"name":"Jigsaw Puzzle","icon":"/image/xp/icons/LOGO.png","path":"./programs/webapp.svelte","webapp":{"background":"#111827","url":"
+            {"name":"Jigsaw Puzzle","icon":"/image/xp/icons/LOGO.png","path":"./programs/webapp.svelte","webapp":{"background":"#111827","url":"https://jigsaw-puzzle-game.vercel.app","name":"jigsaw","icon":"/images/xp/icons/LOGO.png"}},
 
 
             ]

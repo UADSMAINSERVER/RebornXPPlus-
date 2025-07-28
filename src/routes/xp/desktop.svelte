@@ -86,3 +86,8 @@
 </div>
 
 <Welcome bind:this={welcome_scene} />
+<DesktopIcon
+  name="Jigsaw Puzzle"
+  icon="/jigsaw/LOGO.png"
+  on:open={() => openProgram("programs/jigsaw")}
+/>
